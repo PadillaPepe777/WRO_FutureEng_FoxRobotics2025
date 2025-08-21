@@ -9,3 +9,5 @@ Since we aren’t using a computer like Raspberry, our prototype can run drawing
 One of the attempts to use the ESP32 CAM was using AI with Edge Impulse, but instead of relying on them, we opted to use basic color tracking, which can be seen in the uploaded code. It’s worth noting that we used a version that already has USB compatibility, but the common one with or without Shield should be able to run it the same way. The only downside of this method is that we can’t see the ESP32 CAM view, we can only read what we receive from the Serial Console.
 
 In another version we might unlock the ADC_2 pins to be able to connect to the internet or ESP-NOW for debugging purposes. But as for now we are sticking with what already worked for use, and this code can be useful for anyone trying to use Servos and Motors at the same time, because it’s quite different from Arduino and a bit harder to get this done in a ESP32.
+
+Worth Mentioning This program works for the ESP32 board version 3.1.3
