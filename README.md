@@ -11,3 +11,5 @@ One of the attempts to use the ESP32 CAM was using AI with Edge Impulse, but ins
 In another version we might unlock the ADC_2 pins to be able to connect to the internet or ESP-NOW for debugging purposes. But as for now we are sticking with what already worked for use, and this code can be useful for anyone trying to use Servos and Motors at the same time, because it’s quite different from Arduino and a bit harder to get this done in a ESP32.
 
 Worth Mentioning This program works for the ESP32 board version 3.1.3
+
+Latest Version can be found at WRO_Tijuana_Sept Folder
